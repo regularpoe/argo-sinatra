@@ -15,7 +15,7 @@ spec:
       containers:
         - name: string
           image: string
-          imagePullPolicy: Never
+          # imagePullPolicy: Never
           ports:
             - containerPort: 2410
 
