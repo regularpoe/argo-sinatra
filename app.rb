@@ -32,9 +32,4 @@ class App < Sinatra::Base
     { status: 200, result: params['string'].count(params['char']) }.to_json
   end
 
-  get '/status' do
-    { status: 200, result: 'ArgoCD is working' }.to_json
-  end
-
 end
-
