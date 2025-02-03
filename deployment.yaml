@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: string
-          image: string
-          imagePullPolicy: Always
+          image: string:latest
+          # imagePullPolicy: Always
           ports:
             - containerPort: 2410
 
